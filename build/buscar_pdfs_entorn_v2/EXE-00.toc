@@ -3506,7 +3506,7 @@
  [],
  False,
  False,
- 1733775540,
+ 1733782778,
  [('runw.exe',
    'C:\\Users\\jbertran.MATARO\\AppData\\Local\\buscarPDFs\\buscarPDFs_venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],

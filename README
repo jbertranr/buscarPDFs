@@ -4,17 +4,23 @@ Aquesta aplicació busca dins dels PDFs d'una carpeta concreta els termes que s'
 S'ha fet amb PYTHON en un entorn virtual per aillar-ho d'altres aplicaciosn i aconseguir que
 l'executable final sigui el més petit possible.
 
-Per ara es guarden dues versions:
+Per ara es guarden quatre versions:
     buscar_pdfs
     buscar_pdfs_entorn
     buscar_pdfs_entorn_v2
+    buscar_pdfs_entorn_v3
 
 Crear executable
 ================
 L'entorn virtual ja disposa de les eines per crear els executables a la carpeta dist
 
-Per crear l'executable de la v2:
-    pyinstaller --onefile --noconsole buscar_pdfs_entorn_v2.py
+Garantir primer que l'entorn virtual està activat
+
+  PS C:\OneDrive\OneDrive - XXXXXXXXX- M365\Aplicacions\Python\buscarPDFs> .\buscarPDFs_venv\Scripts\activate
+
+Per crear l'executable de la v3:
+
+  (buscarPDFs_venv) PS C:\OneDrive\OneDrive - XXXXXXXXX - M365\Aplicacions\Python\buscarPDFs> pyinstaller --onefile --windowed buscar_pdfs_entorn_v3.py
 
 D'aquesta manera es generarà
-    buscar_pdfs_entorn_v2.exe a la carpeta dist
+  buscar_pdfs_entorn_v3.exe a la carpeta dist
