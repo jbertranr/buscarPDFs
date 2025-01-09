@@ -1,4 +1,4 @@
-README
+README Viamap_MP
 ======
 Aquesta aplicació busca dins dels PDFs d'una carpeta concreta els termes que s'indiquen.
 S'ha fet amb PYTHON en un entorn virtual per aillar-ho d'altres aplicaciosn i aconseguir que
@@ -18,9 +18,9 @@ Garantir primer que l'entorn virtual està activat
 
   PS C:\OneDrive\OneDrive - XXXXXXXXX- M365\Aplicacions\Python\buscarPDFs> .\buscarPDFs_venv\Scripts\activate
 
-Per crear l'executable de la v3:
+Per crear l'executable de la v4:
 
-  (buscarPDFs_venv) PS C:\OneDrive\OneDrive - XXXXXXXXX - M365\Aplicacions\Python\buscarPDFs> pyinstaller --onefile --windowed buscar_pdfs_entorn_v3.py
+  (buscarPDFs_venv) PS C:\OneDrive\OneDrive - XXXXXXXXX - M365\Aplicacions\Python\buscarPDFs> pyinstaller --onefile --windowed buscar_pdfs_entorn_v4.py
 
 D'aquesta manera es generarà
   buscar_pdfs_entorn_v3.exe a la carpeta dist

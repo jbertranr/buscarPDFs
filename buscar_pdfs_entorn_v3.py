@@ -7,6 +7,7 @@ import datetime
 from tkinter import filedialog, messagebox
 from tkinter.ttk import Frame, Button, Label, Entry, Scrollbar, Style, Treeview
 from tkinter.filedialog import asksaveasfilename
+import gc
 
 
 def buscar_pdfs():
@@ -60,6 +61,8 @@ def buscar_pdfs():
                             result = ("Sí", file, page_number, term, fragment, pdf_path_norm)
                             item = result_table.insert("", "end", values=result)
                             update_row_style(item)
+                                    # Alliberar memòria després de processar el PDF
+        gc.collect()
 
     if not stop_search:
         processing_label.config(text="Processament complet!")
